@@ -4,38 +4,10 @@
   <meta charset="UTF-8">
   <title>Exercice GTM</title>
 
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w,d,s,l,i){
-      w[l]=w[l]||[];
-      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-      var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),
-          dl=l!='dataLayer'?'&l='+l:'';
-      j.async=true;
-      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-      f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TX9FJS26');
-  </script>
-  <!-- End Google Tag Manager -->
 
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX9FJS26"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <!-- ✅ Ici on déclenche l'événement après chargement de GTM -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      'event': 'page_category',
-      'pagecategory': 'lien 3'
-    });
-  </script>
+ 
 
   <div class="container">
     <div class="main">
@@ -48,8 +20,8 @@
         <p>Tracker les liens suivants :</p>
         <p>
           <a href="https://arthurseche.github.io/eleve15/hello.html">lien 1</a><br>
-          <a href="https://arthurseche.github.io/eleve15/hello.html" class="exercices2">lien 2</a><br>
-          <a href="https://arthurseche.github.io/eleve15/hello.html" onclick="dataLayer.push({'event': 'lien 3'});" >lien 3</a><br>
+          <a href="https://arthurseche.github.io/eleve15/hello.html" >lien 2</a><br>
+          <a href="https://arthurseche.github.io/eleve15/hello.html"  >lien 3</a><br>
         </p>
 <h1> Exercice 3 <h1>
 <p> Installer sur le site le pixel facebook présenté ci-dessous : </p>
